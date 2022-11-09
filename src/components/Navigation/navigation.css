@@ -21,3 +21,8 @@
     color: white;
     text-decoration: none;
 }
+
+#main-nav-links a:hover {
+    color: silver;
+    transition: 0.5s ease;
+}

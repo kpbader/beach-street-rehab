@@ -4,6 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 
 function Footer () {
 
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <section id="footer">
         {/* <img /> */}
@@ -11,32 +19,32 @@ function Footer () {
         <Nav id="footer-links">
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/beach-street-rehab" className="header-nav-tab">Home</Link>
+                    <Link to="/beach-street-rehab" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/treatment" className="header-nav-tab">Treatment</Link>
+                    <Link to="/treatment" className="footer-nav-tab" onClick={scrollToTop}>Treatment</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/mission" className="header-nav-tab">Mission</Link>
+                    <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/about" className="header-nav-tab">About</Link>
+                    <Link to="/about" className="footer-nav-tab" onClick={scrollToTop}>About</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/insurance" className="header-nav-tab">Insurance</Link>
+                    <Link to="/insurance" className="footer-nav-tab" onClick={scrollToTop}>Insurance</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <Link to="/contact" className="header-nav-tab">Contact</Link>
+                    <Link to="/contact" className="footer-nav-tab" onClick={scrollToTop}>Contact</Link>
                 </Nav.Link>
             </Nav.Item>
         </Nav>

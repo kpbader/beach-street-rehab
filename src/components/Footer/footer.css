@@ -16,3 +16,8 @@
     color: white;
     text-decoration: none;
 }
+
+#footer-links a:hover {
+color: silver;
+    transition: 0.5s ease;
+}
