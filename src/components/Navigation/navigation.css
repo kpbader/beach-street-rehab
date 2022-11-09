@@ -1,0 +1,23 @@
+#nav-bar {
+    display: flex;
+    background-color: rgb(57, 151, 228);
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-bar header {
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+}
+
+#main-nav-links {
+    display: flex;
+}
+
+#main-nav-links a {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
