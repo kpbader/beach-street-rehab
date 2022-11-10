@@ -1,6 +1,7 @@
 import './footer.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import footerLogo from "../../assets/images/Beach Street Rehab-01-01-01.png";
 
 function Footer () {
 
@@ -14,8 +15,7 @@ function Footer () {
 
     return (
         <section id="footer">
-        {/* <img /> */}
-        <h2>Beach Street Rehab</h2> 
+        <img src={footerLogo} alt="logo"/>
         <Nav id="footer-links">
             <Nav.Item>
                 <Nav.Link>

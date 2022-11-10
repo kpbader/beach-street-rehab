@@ -14,6 +14,13 @@ function Home() {
     const { name, email, message } = contactForm;
     const [errorMessage, setErrorMessage] = useState('');
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <section id="home-page">
             <div id="home-splash">
@@ -21,7 +28,7 @@ function Home() {
                     <source src={beachVideo} type="video/mp4" />
                 </video>
                 <Fade up>
-                    <h2>The road to recovery starts with Beach Street</h2>
+                    <h2>The road to recovery starts on Beach Street</h2>
                 </Fade>
             </div>
             <div id="our-services">
@@ -57,7 +64,7 @@ function Home() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <button id="learn-more-btn">
+                    <button id="learn-more-btn" onClick={scrollToTop}>
                         <Link to="/mission">Learn More</Link>
                     </button>
                 </Fade>

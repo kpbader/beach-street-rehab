@@ -2,7 +2,6 @@ import './mission.css';
 import Fade from 'react-reveal/Fade';
 import { useState, useRef } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
 import { HiUserGroup } from "react-icons/hi";
 import { FaHandHoldingHeart, FaBriefcaseMedical } from "react-icons/fa";
 

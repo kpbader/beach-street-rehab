@@ -1,13 +1,14 @@
 import './navigation.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
+import logo from "../../assets/images/Beach Street Rehab-01-01-01.png";
 
 function Navigation () {
 
     return (
         <section id="nav-bar">
-            {/* <img /> */}
-            <header>Beach Street Rehab</header> 
+            <img src={logo} alt="logo"/>
+            {/* <header>Beach Street Rehab</header>  */}
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
