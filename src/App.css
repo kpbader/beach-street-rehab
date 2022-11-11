@@ -12,6 +12,11 @@
     padding-bottom: 25px;
   }
 
+  #nav-bar img {
+    width: 70% !important;
+    height: 70% !important;
+  }
+
   #main-nav-links {
     flex-wrap: wrap;
     justify-content: center;
