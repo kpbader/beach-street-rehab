@@ -193,71 +193,135 @@
 }
 
 /* Portrait tablets and large phones, 600px + */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 820px) {
+
+  * {
+    width: 100% !important;
+    overflow: hidden !important;
+  }
 
   /* NAV */
   #nav-bar {
-    flex-wrap: wrap;
-    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    padding-bottom: 20px;
+    width: 100% !important;
+  }
+
+  #nav-bar img {
+    width: 40% !important;
+    height: 40% !important;
   }
 
 
   /* HOME */
 
-  #info-and-map {
+  #home-splash h2 {
     display: none;
+  }
+
+  #our-services {
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center !important;
+  }
+
+  #our-services h3 {
+    border: 0px !important;
+  }
+
+  #our-services-cards .card {
+    margin: 20px !important;
+  }
+
+  #learn-more-btn {
+    width: 20% !important;
+  }
+
+  #contact-form {
+    width: 50% !important;
+  }
+
+  #google-map {
+    width: 60% !important;
   }
 
   /* TREATMENT */
 
-  #treatmentTwo-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentTwo-text p {
-    font-size: 10px;
-  }
-
-  #treatmentThree-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentThree-text p {
-    font-size: 10px;
-  }
-
-  #treatmentFour-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentFour-text p {
-    font-size: 10px;
-  }
-
-  #treatmentFive-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentFive-text p {
-    font-size: 12px;
-  }
-
-  #treatmentFive-text li {
-    font-size: 10px;
-  }
+  #treatment-top p {
+    width: 70% !important;
+    font-size: 20px;
+}
 
 
+#treatment-two-text {
+width: 50% !important;
+justify-content: center;
+}
+
+#treatment-two img {
+  display: none;
+}
+
+#treatment-three-text {
+  width: 50% !important;
+
+}
+
+#treatment-three img {
+  display: none;
+}
+
+#treatment-four img {
+  display: none;
+}
+
+#treatment-four-text {
+  width: 70% !important;
+}
+
+
+/* OUR MISSION */
+
+#mission-top p {
+  width: 70% !important;
+  font-size: 20px;
+}
 
   /* INSURANCE */
 
-
-  #insurance-map {
-    display: none;
+  #insurance-top-text {
+    width: 40% !important;
+    padding: 50px;
   }
+
+  #insurance-contact-btn {
+    width: 50% !important;
+  }
+
 
 #insurance-logos img {
   height: 50% !important;
   width: 50% !important;
+}
+
+/* CONTACT */
+
+#contact-page-header {
+  display: none !important;
+}
+
+#contact-container {
+  flex-direction: column !important; 
+}
+
+#contact-form {
+  width: 50% !important;
+}
+
+#google-map {
+  width: 60% !important;
 }
 
 };
