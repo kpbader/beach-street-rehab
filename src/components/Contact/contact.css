@@ -5,7 +5,7 @@
     background-size: cover;
   }
   
-  #contact-page-header {
+  /* #contact-page-header {
       color: white;
       font-size: 50px;
       display: flex;
@@ -13,7 +13,7 @@
       padding: 50px;
       margin: 0px;
   }
-  
+   */
   #contact-container {
     display: flex;
     justify-content: space-evenly;
