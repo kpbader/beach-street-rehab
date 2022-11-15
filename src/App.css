@@ -20,6 +20,11 @@
   #main-nav-links {
     flex-wrap: wrap;
     justify-content: center;
+    display: none !important;
+  }
+
+  #hamburger-btn {
+   display:contents !important;
   }
 
   /* HOME PAGE */
@@ -214,6 +219,10 @@
     height: 40% !important;
   }
 
+  #hamburger-btn {
+    display: none !important;
+  }
+
 
   /* HOME */
 
@@ -325,3 +334,13 @@ justify-content: center;
 }
 
 };
+
+/* Landscape tablets, 768px + */
+/* @media only screen and (min-width: 768px) and (max-width: 979px) {
+  
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+  
+} */
