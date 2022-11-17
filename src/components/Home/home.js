@@ -24,9 +24,7 @@ function Home() {
     return (
         <section id="home-page">
             <div id="home-splash">
-                <video autoPlay muted loop>
-                    <source src={beachVideo} type="video/mp4" />
-                </video>
+            <video src={beachVideo} autoPlay muted loop playsInline className='video-bg' /> 
                 <Fade up>
                     <h2>The road to recovery starts on Beach Street</h2>
                 </Fade>
