@@ -26,7 +26,12 @@ function Home() {
             <div id="home-splash">
             <video src={beachVideo} autoPlay muted loop playsInline className='video-bg' /> 
                 <Fade up>
+                    <div id="splash-text">
                     <h2>The road to recovery starts on Beach Street</h2>
+                    <button id="cta-btn">
+                        <Link to="/contact" onClick={scrollToTop}>Get started</Link>
+                    </button>  
+                    </div>  
                 </Fade>
             </div>
             <div id="our-services">

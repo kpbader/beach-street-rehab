@@ -54,7 +54,7 @@
     flex-direction: column;
     max-width: 100%;
     visibility: hidden;
-    background-color: #fff;
+    background-color: rgb(90, 178, 250);
     background-clip: padding-box;
     outline: 0;
     transition: transform 0.3s ease-in-out;
@@ -89,16 +89,16 @@
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: grey;
+    color: white;
     display: block;
     transition: 0.5s;
     text-align: left;
   }
   
-  .tabpanel a:hover {
+  /* .tabpanel a:hover {
     color: silver;
     cursor: pointer;
-  }
+  } */
   
   .btn-close {
     box-sizing: content-box;

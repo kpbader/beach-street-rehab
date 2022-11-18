@@ -9,7 +9,7 @@
 
   #nav-bar {
     flex-wrap: wrap;
-    padding-bottom: 25px;
+    padding: 10px;
   }
 
   #nav-bar img {
@@ -29,7 +29,7 @@
 
   /* HOME PAGE */
 
-  #home-splash h2 {
+  #splash-text {
     display: none;
   }
 
@@ -200,8 +200,8 @@
 }
 
 #footer img {
-  width: 50% !important;
-  height: 50% !important;
+  width: 60% !important;
+  height: 60% !important;
 }
 
 }
