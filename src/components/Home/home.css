@@ -21,13 +21,12 @@ video {
 }
 
 #cta-btn {
-  background-color: transparent;
+  background-color: #054555;
   border: 2px solid;
-  border-radius: 5px;
+  border-radius: 30px;
   padding: 12px;
   color: white;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 50px;
 }
 

@@ -1,0 +1,135 @@
+#bottom-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    align-items: center;
+    background-image: url("../../assets/images/AdobeStock_121677197.jpeg");
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  
+  #contact-form {
+      backdrop-filter: blur(15px);
+  }
+  
+  #contact-form-header {
+    color: white;
+    font-size: 40px;
+  }
+  
+  #form-slot-1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #form-slot-1 input {
+    border-radius: 5px;
+  }
+  
+  #form-slot-2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #form-slot-2 label {
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  #form-slot-2 input {
+    border-radius: 5px;
+  }
+  
+  #form-slot-3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #form-slot-1 label {
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  #form-slot-3 label {
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  #form-slot-3 textarea {
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .contact-submit-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .contact-submit-btn:hover {
+    color: silver;
+    border: 1px solid silver;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .contact-info-line {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .contact-info-line p {
+    padding-left: 10px;
+  }
+  
+  /* Extra small devices */
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+      #contact-form {
+          width: 60%;
+      }
+  
+      #form-slot-3 textarea {
+          width: 225px;
+      }
+  
+      #bc-google-map {
+          width: 300px;
+          height: 300px;
+          margin-bottom: 50px;
+      }
+  }
+  
+  /* Portrait tablets and large phones*/
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    #bc-google-map {
+          width: 300px;
+          height: 300px;
+          margin-bottom: 50px;
+      }
+  }
+  
+  /* Landscape tablets */
+  @media only screen and (min-width: 769px) and (max-width: 900px) {
+    #bc-google-map {
+          width: 300px;
+          height: 300px;
+          margin-bottom: 50px;
+      }
+  }
+  
