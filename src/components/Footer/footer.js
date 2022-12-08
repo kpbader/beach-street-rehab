@@ -2,8 +2,9 @@ import './footer.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import footerLogo from "../../assets/images/Beach Street Rehab-01-01-01.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-function Footer () {
+function Footer() {
 
 
     const scrollToTop = () => {
@@ -15,40 +16,40 @@ function Footer () {
 
     return (
         <section id="footer">
-        <img src={footerLogo} alt="logo"/>
-        <Nav id="footer-links">
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/treatment" className="footer-nav-tab" onClick={scrollToTop}>Treatment</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/about" className="footer-nav-tab" onClick={scrollToTop}>About</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/insurance" className="footer-nav-tab" onClick={scrollToTop}>Insurance</Link>
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link>
-                    <Link to="/contact" className="footer-nav-tab" onClick={scrollToTop}>Contact</Link>
-                </Nav.Link>
-            </Nav.Item>
-        </Nav>
-    </section>
+            <LazyLoadImage src={footerLogo} alt="logo" />
+            <Nav id="footer-links">
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/treatment" className="footer-nav-tab" onClick={scrollToTop}>Treatment</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/about" className="footer-nav-tab" onClick={scrollToTop}>About</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/insurance" className="footer-nav-tab" onClick={scrollToTop}>Insurance</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/contact" className="footer-nav-tab" onClick={scrollToTop}>Contact</Link>
+                    </Nav.Link>
+                </Nav.Item>
+            </Nav>
+        </section>
     )
 
 };

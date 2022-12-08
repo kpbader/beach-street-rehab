@@ -4,6 +4,7 @@ import crescentMoon from '../../assets/images/gavin-spear-unsplash.jpg';
 import coastalSun from '../../assets/images/coastal-sunset-1.jpeg';
 import desertRocks from '../../assets/images/alex-kramarevsky-unsplash.jpg';
 import BottomContact from '../Bottom-Contact/bottom-contact';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 function Treatment() {
@@ -19,7 +20,7 @@ function Treatment() {
             </div>
             <div id="treatment-two">
                 <Fade left>
-                    <img src={crescentMoon} alt="by Gavin Spears" />
+                    <LazyLoadImage src={crescentMoon} alt="by Gavin Spears" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-two-text">
@@ -42,12 +43,12 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={desertRocks} alt="Alex Kramarevsky" />
+                    <LazyLoadImage src={desertRocks} alt="Alex Kramarevsky" />
                 </Fade>
             </div>
             <div id="treatment-four">
                 <Fade left>
-                    <img src={coastalSun} alt="by Gavin Spears" />
+                    <LazyLoadImage src={coastalSun} alt="by Gavin Spears" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-four-text">

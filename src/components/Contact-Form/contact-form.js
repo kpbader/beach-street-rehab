@@ -1,7 +1,5 @@
 import './contact-form.css';
 import { useState, useRef } from 'react';
-// import Blur from 'react-blur';
-// import clearPic from '../../assets/images/AdobeStock_121677197.jpeg';
 
 function ContactForm() {
 
