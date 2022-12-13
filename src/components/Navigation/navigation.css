@@ -71,7 +71,6 @@
   
   .tabpanel {
     padding: 30px;
-    /* transition: 0.5s; */
   }
   
   .tabpanel a {
@@ -83,11 +82,6 @@
     transition: 0.5s;
     text-align: left;
   }
-  
-  /* .tabpanel a:hover {
-    color: silver;
-    cursor: pointer;
-  } */
   
   .btn-close {
     box-sizing: content-box;

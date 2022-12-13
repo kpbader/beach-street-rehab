@@ -59,8 +59,8 @@
 }
 
 #treatment-two img {
-    width: 50%;
-    height: 50%;
+  width: 650px;
+  height: 1000px;
 }
 
 #treatment-three {
@@ -86,8 +86,8 @@
 }
 
 #treatment-three img {
-    width: 60%;
-    height: 60%;
+  width: 700px;
+  height: 500px;
 }
 
 #treatment-four {
@@ -99,8 +99,8 @@
 }
 
 #treatment-four img {
-    width: 50%;
-    height: 50%;
+  width: 650px;
+  height: 1000px;
 }
 
 #treatment-four-text {
@@ -144,6 +144,7 @@
       
       #treatment-two-text {
         padding: 25px;
+        width: 75%;
       }
       
       #treatment-two-text h2 {
@@ -169,6 +170,7 @@
       
       #treatment-three-text {
         padding: 20px !important;
+        width: 75%;
       }
       
       #treatment-three-text h2 {
@@ -182,6 +184,7 @@
       
       #treatment-four-text {
         padding: 20px !important;
+        width: 75%;
       }
       
       #treatment-four-text h2 {
@@ -223,7 +226,7 @@
     
     
     #treatment-two-text {
-    width: 50% !important;
+      width: 75%;
     justify-content: center;
     }
     
@@ -232,7 +235,7 @@
     }
     
     #treatment-three-text {
-      width: 50% !important;
+      width: 75%;
     
     }
     
@@ -245,6 +248,6 @@
     }
     
     #treatment-four-text {
-      width: 70% !important;
+      width: 75%;
     }
 }

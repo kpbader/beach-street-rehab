@@ -15,10 +15,6 @@ function Contact() {
                 <Fade right>
                     <div id="info-and-map">
                         <div id="contact-info">
-                            {/* <div className="contact-info-line">
-                                <BsEnvelope />
-                                <p>nkhashe@9silver.biz</p>
-                            </div> */}
                             <div className="contact-info-line">
                                 <BsTelephone />
                                 <p>(323) 902-5644</p>

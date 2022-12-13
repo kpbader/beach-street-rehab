@@ -5,7 +5,6 @@ import logo from "../../assets/images/Beach Street Rehab-01-01-01.png";
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Navigation() {
 
@@ -13,11 +12,10 @@ function Navigation() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    // const onClick = () => setShow(true);
 
     return (
         <section id="nav-bar">
-            <LazyLoadImage src={logo} alt="logo" />
+            <img src={logo} alt="logo" />
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
