@@ -11,18 +11,11 @@
   padding: 75px;
 }
 
-#about-top-text {
-  padding: 50px;
-  width: 50%;
+#about-top h2 {
+    font-size: 44px;
+    font-weight: lighter;
 }
 
-#about-top-text h2 {
-  color: white;
-  font-size: 40px;
-  font-weight: lighter;
-}
-
-#about-top-text p {
-  color: white;
-  font-size: 20px;
+#about-top p {
+    font-size: 25px;
 }
