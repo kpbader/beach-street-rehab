@@ -35,7 +35,7 @@
 
     #contact-container {
       flex-direction: column;
-      align-items: center;
+      
     }
 
     #info-and-map {
@@ -45,11 +45,6 @@
 
     .contact-info-line p{
       font-size: 15px;
-    }
-
-    #cp-google-map iframe{
-      width: 300px;
-      height: 300px;
     }
 
   }
