@@ -3,8 +3,8 @@
 }
 
 #iop-top {
-  background-image: url("../../assets/images/linhao-zhang-unsplash-overlay.png");
-  background-position: center bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/images/matthew-hamilton-3RlGBpFeoQg-unsplash.jpg");
+  background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   color: white;

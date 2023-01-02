@@ -1,5 +1,5 @@
 #about-top {
-  background-image: url("../../assets/images/daniel-gregoire-ifPS5viyKb8-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url("../../assets/images/daniel-gregoire-ifPS5viyKb8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -17,5 +17,16 @@
 }
 
 #about-top p {
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: lighter;
+    width: 50%;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  #about-top p {
+    width: 100%;
+  }
+
 }

@@ -14,11 +14,6 @@ function Navigation() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const [dropShow, setDropShow] = useState(false);
-    const handleDropClose = () => setDropShow(false);
-    const handleDropShow = () => setDropShow(true);
-
-
     const nav = useNavigate();
 
     return (
@@ -28,7 +23,7 @@ function Navigation() {
                 <Nav.Link>
                     <Link to="/beach-street-rehab/" className="header-nav-tab">Home</Link>
                 </Nav.Link>
-                <NavDropdown id="programs-dropdown" title="Programs" show={dropShow} onMouseOver={handleDropShow} onMouseOut={handleDropClose}>
+                <NavDropdown id="programs-dropdown" title="Programs ⌄">
                     <NavDropdown.Item onClick={() => nav("/php")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
@@ -69,7 +64,7 @@ function Navigation() {
                         <ul className="tabpanel">
 
                             <Link to="/beach-street-rehab/" className="header-nav-tab" onClick={handleClose}>Home</Link>
-                            <NavDropdown id="programs-dropdown" title="Programs" show={dropShow} onMouseOver={handleDropShow} onMouseOut={handleDropClose}>
+                            <NavDropdown id="programs-dropdown" title="Programs ⌄">
                                 <NavDropdown.Item onClick={() => nav("/php")} className="hamburger-dropdown-tab">
                                     Partial Hospitalization Program (PHP)
                                 </NavDropdown.Item>
