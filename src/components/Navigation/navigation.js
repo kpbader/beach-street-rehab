@@ -23,7 +23,7 @@ function Navigation() {
                 <Nav.Link>
                     <Link to="/beach-street-rehab/" className="header-nav-tab">Home</Link>
                 </Nav.Link>
-                <NavDropdown id="programs-dropdown" title="Programs ⌄">
+                <NavDropdown id="programs-dropdown" title="Addiction ⌄">
                     <NavDropdown.Item onClick={() => nav("/php")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
@@ -33,8 +33,16 @@ function Navigation() {
                     <NavDropdown.Item onClick={() => nav("/op")}>
                         Outpatient Program (OP)
                     </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/jobs")}>
-                        Jobs Program
+                </NavDropdown>
+                <NavDropdown id="programs-dropdown" title="Mental Health ⌄">
+                    <NavDropdown.Item onClick={() => nav("/php")}>
+                        Partial Hospitalization Program (PHP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/iop")}>
+                        Intensive Outpatient Program (IOP)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => nav("/op")}>
+                        Outpatient Program (OP)
                     </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link>
@@ -45,6 +53,9 @@ function Navigation() {
                 </Nav.Link>
                 <Nav.Link>
                     <Link to="/insurance" className="header-nav-tab">Insurance</Link>
+                </Nav.Link>
+                <Nav.Link>
+                    <Link to="/jobs" className="header-nav-tab">Jobs Program</Link>
                 </Nav.Link>
                 <Nav.Link>
                     <Link to="/contact" className="header-nav-tab">Contact</Link>
@@ -64,7 +75,7 @@ function Navigation() {
                         <ul className="tabpanel">
 
                             <Link to="/beach-street-rehab/" className="header-nav-tab" onClick={handleClose}>Home</Link>
-                            <NavDropdown id="programs-dropdown" title="Programs ⌄">
+                            <NavDropdown id="programs-dropdown" title="Addiction ⌄">
                                 <NavDropdown.Item>
                                     <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
                                 </NavDropdown.Item>
@@ -74,13 +85,22 @@ function Navigation() {
                                 <NavDropdown.Item>
                                     <Link to="/op" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
                                 </NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown id="programs-dropdown" title="Mental Health ⌄">
                                 <NavDropdown.Item>
-                                    <Link to="/jobs" onClick={handleClose} className="hamburger-dropdown-tab">Jobs Program</Link>
+                                    <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                   <Link to="/iop" onClick={handleClose} className="hamburger-dropdown-tab">Intensive Outpatient Program (IOP)</Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link to="/op" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Link to="/mission" className="header-nav-tab" onClick={handleClose}>Mission</Link>
                             <Link to="/about" className="header-nav-tab" onClick={handleClose}>About</Link>
                             <Link to="/insurance" className="header-nav-tab" onClick={handleClose}>Insurance</Link>
+                            <Link to="/jobs" className="header-nav-tab" onClick={handleClose}>Jobs Program</Link>
                             <Link to="/contact" className="header-nav-tab" onClick={handleClose}>Contact</Link>
 
                         </ul>

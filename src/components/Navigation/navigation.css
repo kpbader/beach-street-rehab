@@ -15,8 +15,8 @@
 }
 
 #main-nav-links a {
-    padding: 20px;
-    font-size: 20px;
+    padding: 18px;
+    font-size: 16px;
     color: white;
     text-decoration: none;
 }
@@ -35,7 +35,7 @@
 }
 
 .dropdown-menu.show {
-  z-index: 9999;
+  
   display: flex;
   flex-direction: column;
   background-color: rgb(90, 178, 250);
@@ -54,7 +54,7 @@
   }
   
   .offcanvas {
-    height: 350px !important;
+    height: 450px !important;
     width: 275px !important;
     position: fixed;
     bottom: 0;
@@ -147,8 +147,6 @@
   }
 
   #main-nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
     display: none !important;
   }
 
@@ -171,16 +169,14 @@
   #nav-bar img {
     width: 40% !important;
     height: 40% !important;
-    padding-bottom: 20px;
   }
 
-  #main-nav-links a {
-    font-size: 18px;
-    padding: 15px;
+  #main-nav-links {
+    display: none !important;
   }
 
   #hamburger-btn {
-    display: none !important;
+   display:contents !important;
   }
 
 }
