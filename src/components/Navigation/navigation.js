@@ -10,6 +10,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function Navigation() {
 
+    // offcanvas
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -23,7 +24,7 @@ function Navigation() {
                 <Nav.Link>
                     <Link to="/beach-street-rehab/" className="header-nav-tab">Home</Link>
                 </Nav.Link>
-                <NavDropdown id="programs-dropdown" title="Addiction ⌄">
+                <NavDropdown className="programs-dropdown" title="Addiction ⌄">
                     <NavDropdown.Item onClick={() => nav("/php")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
@@ -34,7 +35,7 @@ function Navigation() {
                         Outpatient Program (OP)
                     </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown id="programs-dropdown" title="Mental Health ⌄">
+                <NavDropdown className="programs-dropdown" title="Mental Health ⌄">
                     <NavDropdown.Item onClick={() => nav("/php")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
@@ -75,7 +76,7 @@ function Navigation() {
                         <ul className="tabpanel">
 
                             <Link to="/beach-street-rehab/" className="header-nav-tab" onClick={handleClose}>Home</Link>
-                            <NavDropdown id="programs-dropdown" title="Addiction ⌄">
+                            <NavDropdown className="programs-dropdown" title="Addiction ⌄">
                                 <NavDropdown.Item>
                                     <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
                                 </NavDropdown.Item>
@@ -86,7 +87,7 @@ function Navigation() {
                                     <Link to="/op" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown id="programs-dropdown" title="Mental Health ⌄">
+                            <NavDropdown className="programs-dropdown" title="Mental Health ⌄">
                                 <NavDropdown.Item>
                                     <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
                                 </NavDropdown.Item>

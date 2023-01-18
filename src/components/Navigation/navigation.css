@@ -12,6 +12,7 @@
 
 #main-nav-links {
     display: flex;
+    align-items: center;
 }
 
 #main-nav-links a {
@@ -26,16 +27,13 @@
     transition: 0.5s ease;
 }
 
-#programs-dropdown {
-  display: flex;
-}
 
 .dropdown-menu {
   display: none;
 }
 
 .dropdown-menu.show {
-  
+  position: absolute;
   display: flex;
   flex-direction: column;
   background-color: rgb(90, 178, 250);

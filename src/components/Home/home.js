@@ -62,8 +62,8 @@ function Home() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <button id="learn-more-btn" onClick={scrollToTop}>
-                        <Link to="/mission">Learn More</Link>
+                    <button id="learn-more-btn">
+                        <Link to="/mission" onClick={scrollToTop}>Learn More</Link>
                     </button>
                 </Fade>
             </div>
