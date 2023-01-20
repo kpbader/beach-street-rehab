@@ -23,6 +23,11 @@ function Footer() {
                         <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                     </Nav.Link>
                 </Nav.Item>
+                {/* <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Addiction</Link>
+                    </Nav.Link>
+                </Nav.Item> */}
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>
@@ -49,6 +54,41 @@ function Footer() {
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
+
+            {/* <Nav title="Addiction Programs">
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/php" className="footer-nav-tab" onClick={scrollToTop}>PHP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/iop" className="footer-nav-tab" onClick={scrollToTop}>IOP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/op" className="footer-nav-tab" onClick={scrollToTop}>OP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Nav title="Mental Health Programs">
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/php" className="footer-nav-tab" onClick={scrollToTop}>PHP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/iop" className="footer-nav-tab" onClick={scrollToTop}>IOP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link>
+                        <Link to="/op" className="footer-nav-tab" onClick={scrollToTop}>OP</Link>
+                    </Nav.Link>
+                </Nav.Item>
+            </Nav> */}
         </section>
     )
 

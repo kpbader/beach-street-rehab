@@ -7,7 +7,6 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-
 function Navigation() {
 
     // offcanvas
@@ -17,6 +16,7 @@ function Navigation() {
 
     const nav = useNavigate();
 
+
     return (
         <section id="nav-bar">
             <img src={logo} alt="logo" />
@@ -24,25 +24,25 @@ function Navigation() {
                 <Nav.Link>
                     <Link to="/beach-street-rehab/" className="header-nav-tab">Home</Link>
                 </Nav.Link>
-                <NavDropdown className="programs-dropdown" title="Addiction ⌄">
-                    <NavDropdown.Item onClick={() => nav("/php")}>
-                        Partial Hospitalization Program (PHP)
-                    </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/iop")}>
-                        Intensive Outpatient Program (IOP)
-                    </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/op")}>
-                        Outpatient Program (OP)
-                    </NavDropdown.Item>
-                </NavDropdown>
+                    <NavDropdown className="programs-dropdown" title="Addiction ⌄">
+                        <NavDropdown.Item onClick={() => nav("/php")}>
+                            Partial Hospitalization Program (PHP)
+                        </NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => nav("/iop")}>
+                            Intensive Outpatient Program (IOP)
+                        </NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => nav("/op")}>
+                            Outpatient Program (OP)
+                        </NavDropdown.Item>
+                    </NavDropdown>
                 <NavDropdown className="programs-dropdown" title="Mental Health ⌄">
-                    <NavDropdown.Item onClick={() => nav("/php")}>
+                    <NavDropdown.Item onClick={() => nav("/phpmh")}>
                         Partial Hospitalization Program (PHP)
                     </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/iop")}>
+                    <NavDropdown.Item onClick={() => nav("/iopmh")}>
                         Intensive Outpatient Program (IOP)
                     </NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => nav("/op")}>
+                    <NavDropdown.Item onClick={() => nav("/opmh")}>
                         Outpatient Program (OP)
                     </NavDropdown.Item>
                 </NavDropdown>
@@ -81,7 +81,7 @@ function Navigation() {
                                     <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                   <Link to="/iop" onClick={handleClose} className="hamburger-dropdown-tab">Intensive Outpatient Program (IOP)</Link>
+                                    <Link to="/iop" onClick={handleClose} className="hamburger-dropdown-tab">Intensive Outpatient Program (IOP)</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
                                     <Link to="/op" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
@@ -89,13 +89,13 @@ function Navigation() {
                             </NavDropdown>
                             <NavDropdown className="programs-dropdown" title="Mental Health ⌄">
                                 <NavDropdown.Item>
-                                    <Link to="/php" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
+                                    <Link to="/phpmh" onClick={handleClose} className="hamburger-dropdown-tab">Partial Hospitalization Program (PHP) </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                   <Link to="/iop" onClick={handleClose} className="hamburger-dropdown-tab">Intensive Outpatient Program (IOP)</Link>
+                                    <Link to="/iopmh" onClick={handleClose} className="hamburger-dropdown-tab">Intensive Outpatient Program (IOP)</Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                    <Link to="/op" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
+                                    <Link to="/opmh" onClick={handleClose} className="hamburger-dropdown-tab">Outpatient Program (OP)</Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Link to="/mission" className="header-nav-tab" onClick={handleClose}>Mission</Link>

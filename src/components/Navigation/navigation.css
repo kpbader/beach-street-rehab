@@ -1,32 +1,54 @@
 #nav-bar {
-    display: flex;
-    background-color: rgb(90, 178, 250);
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  background-color: rgb(90, 178, 250);
+  justify-content: space-around;
+  align-items: center;
 }
 
 #nav-bar img {
-    width: 25%;
-    height: 25%;
+  width: 25%;
+  height: 25%;
 }
 
 #main-nav-links {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #main-nav-links a {
-    padding: 18px;
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
+  padding: 18px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
 
 #main-nav-links a:hover {
-    color: silver;
-    transition: 0.5s ease;
+  color: silver;
+  transition: 0.5s ease;
 }
 
+/* .programs-dropdown {
+  animation: bounceIn 2s linear;
+}
+
+@keyframes bounceIn {
+  
+  20%,
+  50%,
+  80%,
+  to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+} */
 
 .dropdown-menu {
   display: none;
@@ -39,101 +61,99 @@
   background-color: rgb(90, 178, 250);
 }
 
-
 #hamburger-btn {
-    text-align: right;
-    font-size: 45px;
-    display: none;
-    color: white !important;
-  }
+  text-align: right;
+  font-size: 45px;
+  display: none;
+  color: white !important;
+}
 
-  .hamburger-dropdown-tab {
-    font-size: 12px !important;
-  }
-  
-  .offcanvas {
-    height: 450px !important;
-    width: 275px !important;
-    position: fixed;
-    bottom: 0;
-    z-index: 1045;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    visibility: hidden;
-    background-color: rgb(90, 178, 250);
-    background-clip: padding-box;
-    outline: 0;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  
-  element.style {
-    visibility: visible;
-  }
-  .offcanvas.show {
-    transform: none;
-  }
-  .offcanvas-end {
-    top: 0;
-    right: 0;
-    width: 250px;
-    border-left: 1pxsolidrgba(0,0,0,.2);
-    transform: translateX(100%)
-  }
-  
-  .offcanvas-header {
-    position: absolute;
-    padding: 10px;
-  }
-  
-  .tabpanel {
-    padding: 30px;
-  }
-  
-  .tabpanel a {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    display: block;
-    transition: 0.5s;
-    text-align: left;
-  }
-  
-  .btn-close {
-    box-sizing: content-box;
-    width: 2em;
-    height: 2em;
-    padding: 0.25em;
-    color: #000;
-    background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3E%3Cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3E%3C/svg%3E") 50%/1em auto no-repeat;
-    border: 0;
-    border-radius: 0.25rem;
-  }
-  
-  .btn-close:hover {
-    cursor: pointer;
-  }
-  
-  .openbtn {
-    right: 0;
-    cursor: pointer;
-    color: grey !important;
-    border: none !important;
-    background-color: white !important;
-    z-index: 99;
-  }
-  
-  
-  .btn-primary:hover {
-    color: silver !important;
-    transition: 0.3s;
-  }
+.hamburger-dropdown-tab {
+  font-size: 12px !important;
+}
 
-  /* Extra small devices */
+.offcanvas {
+  height: 450px !important;
+  width: 275px !important;
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: rgb(90, 178, 250);
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+element.style {
+  visibility: visible;
+}
+.offcanvas.show {
+  transform: none;
+}
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 250px;
+  border-left: 1pxsolidrgba (0, 0, 0, 0.2);
+  transform: translateX(100%);
+}
+
+.offcanvas-header {
+  position: absolute;
+  padding: 10px;
+}
+
+.tabpanel {
+  padding: 30px;
+}
+
+.tabpanel a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.5s;
+  text-align: left;
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 2em;
+  height: 2em;
+  padding: 0.25em;
+  color: #000;
+  background: transparent
+    url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3E%3Cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3E%3C/svg%3E")
+    50%/1em auto no-repeat;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+.btn-close:hover {
+  cursor: pointer;
+}
+
+.openbtn {
+  right: 0;
+  cursor: pointer;
+  color: grey !important;
+  border: none !important;
+  background-color: white !important;
+  z-index: 99;
+}
+
+.btn-primary:hover {
+  color: silver !important;
+  transition: 0.3s;
+}
+
+/* Extra small devices */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-
   #nav-bar {
     flex-wrap: wrap;
     padding: 10px;
@@ -149,13 +169,11 @@
   }
 
   #hamburger-btn {
-   display:contents !important;
+    display: contents !important;
   }
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 820px) {
-
   #nav-bar {
     display: flex;
     flex-wrap: wrap !important;
@@ -174,7 +192,6 @@
   }
 
   #hamburger-btn {
-   display:contents !important;
+    display: contents !important;
   }
-
 }
