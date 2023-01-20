@@ -71,7 +71,7 @@ function OP() {
                         <li>
                             <Link to="/jobs" onClick={scrollToTop}>Jobs Program</Link>
                         </li>
-                        <p>Contact us today and start your journey to recovery. We are eager to help you overcome your addiction.</p>
+                        <p><Link to="/contact" onClick={scrollToTop} className="contact-us-txt">Contact us</Link> today and start your journey to recovery.</p>
                     </div>
                 </Fade>
             </div>

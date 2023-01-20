@@ -22,9 +22,8 @@ function PHPMH() {
             <div id="php-top">
                 <Fade up>
                     <h2>Partial Hospitalization Program (PHP)</h2>
-                    <p>Healing your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.</p>
-                    <p>At Beach Street, we offer several levels of care to help you navigate recovery. Take part in one of our Partial Hospitalization Program (PHP).
-We will listen to you, assess your situation, and help you craft a treatment approach that works for you. </p>
+                    <p>Your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.</p>
+                    <p>At Beach Street, we offer several levels of care to help you navigate recovery. Take part in one of our Partial Hospitalization Program (PHP). We will listen to you, assess your situation, and help you craft a treatment approach that works for you. </p>
                 </Fade>
             </div>
             <div id="php-two">
@@ -75,7 +74,7 @@ We will listen to you, assess your situation, and help you craft a treatment app
                         <li>
                             <Link to="/jobs" onClick={scrollToTop}>Jobs Program</Link>
                         </li>
-                        <p>Contact us today and start your journey to recovery.</p>
+                        <p><Link to="/contact" onClick={scrollToTop} className="contact-us-txt">Contact us</Link> today and start your journey to recovery.</p>
                     </div>
                 </Fade>
             </div>

@@ -62,7 +62,7 @@ We will listen to you, assess your situation, and help you craft a treatment app
                 <Fade right>
                     <div id="op-four-text">
                         <h2>Learn about our other programs</h2>
-                        <p>At Beach Street Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+                        <p>At Beach Street Rehab, we provide several other avenues of treatment. In addition to our partial hospitalization program, we offer:</p>
                         <li>
                             <Link to="/phpmh" onClick={scrollToTop}>Partial Hospitalization Program</Link>
                         </li>
@@ -72,7 +72,7 @@ We will listen to you, assess your situation, and help you craft a treatment app
                         <li>
                             <Link to="/jobs" onClick={scrollToTop}>Jobs Program</Link>
                         </li>
-                        <p>Contact us today and start your journey to recovery.</p>
+                        <p><Link to="/contact" onClick={scrollToTop} className="contact-us-txt">Contact us</Link> today and start your journey to recovery.</p>
                     </div>
                 </Fade>
             </div>

@@ -132,6 +132,16 @@
     transition: 0.5s ease;
 }
 
+.contact-us-txt {
+  color: orange;
+  text-decoration: none;
+}
+
+.contact-us-txt:hover {
+  color: silver;
+  transition: 0.5s ease;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 
 
