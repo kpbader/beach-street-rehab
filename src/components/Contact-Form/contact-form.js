@@ -15,15 +15,15 @@ function ContactForm() {
                 <p id="contact-form-header">Reach Out</p>
                 <div id="form-slot-1">
                     <label htmlFor="name">Name</label>
-                    <input type="text" defaultValue={name} name="name" />
+                    <input type="text" defaultValue={name} name="name" placeholder="Your name" />
                 </div>
                 <div id="form-slot-2">
                     <label htmlFor="email">Email</label>
-                    <input type="email" defaultValue={email} name="email" />
+                    <input type="email" defaultValue={email} name="email" placeholder="Your email" />
                 </div>
                 <div id="form-slot-4">
                     <label htmlFor="phone">Phone</label>
-                    <input type="phone" defaultValue={phone} name="phone" />
+                    <input type="phone" defaultValue={phone} name="phone" placeholder="Your phone number"/>
                 </div>
                 <div id="form-slot-3">
                     <label htmlFor="message">Message</label>

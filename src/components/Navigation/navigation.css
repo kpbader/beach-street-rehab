@@ -27,11 +27,22 @@
   transition: 0.5s ease;
 }
 
-/* .programs-dropdown {
-  animation: bounceIn 2s linear;
+.programs-dropdown h4 {
+  color: white;
+  font-weight: lighter;
+  padding-left: 15px;
+  text-decoration: underline;
 }
 
-@keyframes bounceIn {
+.programs-dropdown h5 {
+  color: white;
+  font-weight: lighter;
+  padding-left: 15px;
+  text-decoration: underline;
+}
+
+
+/* @keyframes bounceIn {
   
   20%,
   50%,
@@ -59,6 +70,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(90, 178, 250);
+  z-index: 99999;
 }
 
 #hamburger-btn {
@@ -70,10 +82,11 @@
 
 .hamburger-dropdown-tab {
   font-size: 12px !important;
+  padding: 0px !important;
 }
 
 .offcanvas {
-  height: 450px !important;
+  height: 400px !important;
   width: 275px !important;
   position: fixed;
   bottom: 0;
@@ -105,6 +118,10 @@ element.style {
 .offcanvas-header {
   position: absolute;
   padding: 10px;
+}
+
+.offcanvas-header .btn-close {
+  color: white !important;
 }
 
 .tabpanel {

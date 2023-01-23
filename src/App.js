@@ -6,6 +6,7 @@ import {
 import './App.css';
 import Home from "./components/Home/home";
 import Navigation from "./components/Navigation/navigation";
+import Treatment from './components/Treatment/treatment';
 import PHP from './components/PHP/php';
 import IOP from './components/IOP/iop';
 import OP from './components/OP/op';
@@ -32,6 +33,7 @@ function App() {
           <Route path="/phpmh" element={<PHPMH />}></Route>
           <Route path="/iopmh" element={<IOPMH />}></Route>
           <Route path="/opmh" element={<OPMH />}></Route>
+          <Route path="/treatment" element={<Treatment />}></Route>
           <Route path="/jobs" element={<Jobs />}></Route>
           <Route path="/mission" element={<Mission />}></Route>
           <Route path="/about" element={<About />}></Route>

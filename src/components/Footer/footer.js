@@ -23,11 +23,11 @@ function Footer() {
                         <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                     </Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item>
+                <Nav.Item>
                     <Nav.Link>
-                        <Link to="/beach-street-rehab/" className="footer-nav-tab" onClick={scrollToTop}>Addiction</Link>
+                        <Link to="/treatment" className="footer-nav-tab" onClick={scrollToTop}>Treatment</Link>
                     </Nav.Link>
-                </Nav.Item> */}
+                </Nav.Item>
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/mission" className="footer-nav-tab" onClick={scrollToTop}>Mission</Link>

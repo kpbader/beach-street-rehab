@@ -1,0 +1,216 @@
+#treatment-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("../../assets/images/bobby-stevenson-ItGVTxuCLDU-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 75px;
+}
+
+#treatment-top h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#treatment-top p {
+  width: 50%;
+  font-size: 22px;
+}
+
+#treatment-top li {
+  font-size: 20px;
+}
+
+#treatmentTwo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+}
+
+#treatmentTwo img {
+  width: 650px;
+  height: 1000px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px solid rgb(90, 178, 250);
+  border-bottom: 2px solid rgb(90, 178, 250);
+}
+
+#treatmentTwo-text {
+  display: flex;
+  flex-direction: column;
+  color: rgb(90, 178, 250);
+  width: 40%;
+}
+
+#treatmentTwo-text h2 {
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+#treatmentTwo-text p {
+  font-size: 22px;
+}
+
+#treatmentThree {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  background-color: rgb(90, 178, 250);
+  /* background-image: linear-gradient(#006699, white); */
+}
+
+#treatmentThree img {
+  width: 625px;
+  height: 400px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#treatmentThree-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: white;
+  width: 40%;
+}
+
+#treatmentThree-text p {
+  font-size: 22px;
+}
+
+#treatmentThree-text li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+#treatmentFour {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+}
+
+#treatmentFour img {
+  width: 600px;
+  height: 350px;
+  border-top: 2px solid rgb(90, 178, 250);
+  border-bottom: 2px solid rgb(90, 178, 250);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#treatmentFour-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: rgb(90, 178, 250);
+  width: 40%;
+}
+
+#treatmentFour-text h2 {
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+#treatmentFour-text p {
+  font-size: 22px;
+}
+
+#treatmentFive {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  background-color: #006699;
+}
+
+#treatmentFive img {
+  width: 45%;
+  height: 45%;
+}
+
+#treatmentFive-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: white;
+  width: 40%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #treatment-top p {
+    width: 100%;
+  }
+
+  #treatmentTwo img {
+    display: none;
+  }
+
+  #treatmentTwo-text {
+    width: 100%;
+  }
+
+  #treatmentTwo-text h2 {
+    font-size: 30px;
+  }
+
+  #treatmentThree img {
+    display: none;
+  }
+
+  #treatmentThree-text {
+    width: 100%;
+  }
+
+  #treatmentFour img {
+    display: none;
+  }
+
+  #treatmentFour-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  #treatment-top p {
+    width: 100%;
+  }
+
+  #treatmentTwo img {
+    display: none;
+  }
+
+  #treatmentTwo-text {
+    width: 100%;
+  }
+
+  #treatmentTwo-text h2 {
+    font-size: 30px;
+  }
+
+  #treatmentThree img {
+    display: none;
+  }
+
+  #treatmentThree-text {
+    width: 100%;
+  }
+
+  #treatmentFour img {
+    display: none;
+  }
+
+  #treatmentFour-text {
+    width: 100%;
+  }
+}
